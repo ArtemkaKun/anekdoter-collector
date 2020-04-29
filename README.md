@@ -1,0 +1,2 @@
+# anekdoter-collector
+Collect jokes
