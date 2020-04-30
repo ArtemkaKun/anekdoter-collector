@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"log"
+	"net/http"
+)
 
 func main() {
-	fmt.Println(GetRandomJoke())
+	log.Fatal(http.ListenAndServe(":8001", Router))
 }
